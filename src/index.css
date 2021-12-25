@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  align-self: center;
+}
+
+.hover:hover, button:hover {
+  background-color:darkgray;
+  cursor: pointer;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+}
