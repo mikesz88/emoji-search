@@ -11,8 +11,8 @@ class SearchInput extends React.Component {
 
     render() {
         return (
-            <div style={{textAlign: 'center'}}>
-                <input style={{width: 1140, height: '2rem', borderRadius: 8, fontSize: '2rem', padding: '1rem'}} onChange={this.updateChange} type="text" name="search" id="search"/>
+            <div style={{textAlign: 'center', maxWidth: 1140}}>
+                <input style={{width: '100%', height: '2rem', borderRadius: 8, fontSize: '2rem', padding: '1rem'}} onChange={this.updateChange} type="text" name="search" id="search"/>
                 <div>Click on the icon below to copy! :)</div>
             </div>
         )
