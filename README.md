@@ -6,10 +6,10 @@
 ## Requirements: 
 ***Instructions***
 1. Create four components
-   1. <Header> 
-   2. <SearchInput>
-   3. <EmojiResults>
-   4. <EmojiRow>
+   1. Header 
+   2. SearchInput
+   3. EmojiResults
+   4. EmojiRow
 2. Download the json file attached to this lesson for a list of emojis and add it to your project.
 3. The list should show a maximum of 20 results
 4. As a user types into the search bar the list should begin to filter the results.
